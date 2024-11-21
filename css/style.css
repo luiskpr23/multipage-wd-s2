@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* custom properties */
+
+:root {
+
+/* ## Colores Primarios */
+
+--yellow:       #F9CB2D; /*Relleno / texto título / marca*/
+
+/* ### Colores Secundarios */
+
+--whiteness:    #FFF8E5; /*Texto titulo*/
+
+/* ### Colores Neutral */
+
+--black:        #000000; /*Relleno / iconos / sombra*/
+--white:        #FFFFFF; /*Relleno*/
+--gray-light:   #F5F5F5E5; /*Texto título*/
+--gray:         #F5F5F5B2; /*Texto párrafo	*/
+--gray-dark:    #958D8D; /*Texto placeholder*/
+
+
+/* ### Colores Degradados */
+
+--linear-gradient: linear-gradient(134deg, #331E1E 28.47%, #D4C9C0 92.51%);/*fondo*/
+
+/* ### fuente */
+
+--font-principal:       "Playfair Display", serif;        
+--font-secundaria:      "Inter", sans-serif;
+
+/* dimensiones y espacios */
+
+--space-none:     0px ;
+--space-4XS:      1px ;
+--space-3XS:      2px ;
+--space-2XS:      4px ;
+--space-XS:       8px ;
+--space-SM:       12px ;
+--space-MD:       16px ;
+--space-LG:       20px ;
+--space-XL:       24px ;
+--space-2XL:      28px ;
+--space-3XL:      32px ;
+--space-4XL:      36px ;
+
+}
+
+body {
+    font-family: var(--font-secundaria);
+    font-size: var(--space-MD);
+}
+
+.hero {
+    background-image: url("../assets/bg-arc.png"), var(--linear-gradient);
+    background-repeat: no-repeat;
+    height: 778px;
+    width: 100%;
+    background-position: center;
+    
+}
+
+.header {
+    padding: 24px 0px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1170px;
+
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand {
+    color: var(--yellow);
+    font-family: var(--principal);
+    font-size: 24px;
+}
+
+.container-right {
+    display: flex;
+    align-items: center;
+}
+
+
+.nav {
+    display: flex;
+    gap: 8px;
+}
+.nav__link {
+    padding: 12px 24px;
+    text-decoration:none ;
+    color: var(--whiteness);
+}
+
+.form {
+    display: flex;
+    background-color: var(--white);
+    width: 250px;
+    border-radius: 12px;
+    justify-content: space-between;
+    padding-left: 16px;
+}
+
+.form__imput {
+    border: none;
+}
+
+.button {
+    background-color: var(--yellow);
+    padding: 12px;
+    border-radius: 12px ;
+    border: none;
+}
+
+.buttom__svg {
+    color: var(--black);
+}
+
+::placeholder {
+    color: var(--gray-dark);
+    font-size: 12px;
+}
+
+.content {
+    width: 100%;
+    height: 673px;
+
+}
+
+.picture {
+    width: 100%;
+    height: 673px;
+
+}
+
+.picture__iphone-one {
+    position: absolute;
+    left: ;
+    bottom: ;
+    z-index: 110px  ;
+}
+
+.picture__iphone-two {
+    position: absolute;
+    right: 10px;
+    bottom: 70px ;
+    z-index: 99;
+}
+
+.picture__shadown-one {
+    position: absolute;
+    right: 178px;
+    bottom: 125px;
+    z-index: 100;
+}
+
+.picture__shadown-two {
+    position: absolute;
+    left: 130px;
+    bottom: 70px;
+    z-index: 98;
+}
+

@@ -1,0 +1,45 @@
+# Guía de estilo de interfaz de usuario
+
+## Disposición
+
+El diseño fue creado para - Escritorio: 1440px
+
+
+## Colores Primarios
+
+- Relleno / texto título / marca		#F9CB2D
+
+### Colores Secundarios
+
+- Texto titulo				#FFF8E5
+
+### Colores Neutral
+
+- Relleno / iconos / sombra			#000000
+- Relleno           	                	#FFFFFF
+- Texto título				#F5F5F5E5
+- Texto párrafo				#F5F5F5B2
+- Texto placeholder				#958D8D
+
+
+### Colores Degradados
+
+- Fondo					linear-gradient(134deg, #331E1E 28.47%, #D4C9C0 92.51%)
+
+------------------------------------------------------------------------------------------
+
+## Si necesitas combinar una imagen con un degradado puedes usar esta regla de css 👇
+
+background-image: url("URL DE IMAGEN"), linear-gradient(VALORES DEL DEGRADADO); 
+
+------------------------------------------------------------------------------------------
+
+## Tipografía
+
+- Tamaño de fuente para textos de body: 16px
+
+### Fuente
+
+- Principal		    Playfair Display (https://fonts.google.com/specimen/Playfair+Display)
+- Secundaria 	    Inter (https://fonts.google.com/specimen/Inter)
+
